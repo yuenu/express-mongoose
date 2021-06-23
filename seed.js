@@ -12,21 +12,6 @@ mongoose.connect(uri, {useNewUrlParser: true, useUnifiedTopology: true})
     console.log(err)
   })
 
-  // const p = new Product({
-  //   name: 'Ruby Grapefruit',
-  //   price: 1.99,
-  //   category: 'fruit'
-  // })
-
-  // p.save()
-  //   .then((res) => {
-  //     console.log(res)
-  //   })
-  //   .catch(e => {
-  //     console.log(e)
-  //   })
-
-
   const seedProducts = [
     {
       name: 'Fairy Eggplant',
